@@ -52,8 +52,6 @@ cask "feishu"
 cask "glance-chamburr"
 # Web browser
 cask "google-chrome"
-# Block nags to accept cookies and privacy invasive tracking in Safari
-cask "hush"
 # Tool for multi-language users
 cask "input-source-pro"
 # Open-source download manager
@@ -66,8 +64,6 @@ cask "netnewswire"
 cask "obsidian"
 # PDF reader, editor and annotator
 cask "pdf-expert"
-# Cloud storage manager tool
-cask "piclist"
 # Used to access context-specific actions when text is selected
 cask "popclip"
 # Control your tools with a few keystrokes
