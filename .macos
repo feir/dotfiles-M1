@@ -17,13 +17,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # General UI/UX                                                               #
 ###############################################################################
 
-# Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "MacBook Dries"
-sudo scutil --set HostName "MacBook Dries"
-sudo scutil --set LocalHostName "MacBook Dries"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacBook Dries"
+# Set computer name (as done via System Preferences → Sharing)""
+sudo scutil --set ComputerName "Feir"
+sudo scutil --set HostName "Feir"
+sudo scutil --set LocalHostName "Feir"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Feir"
 
-# Disable the sound effects on boot
+# Disable the sound effects on boot 关闭开机 Duang~ 的声音
 sudo nvram SystemAudioVolume=" "
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
@@ -152,7 +152,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Disable press-and-hold for keys in favor of key repeat
 # defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# Set a blazingly fast keyboard repeat rate
+# Set a blazingly fast keyboard repeat rate 设置键盘按键重复的延迟
 # defaults write NSGlobalDomain KeyRepeat -int 1
 # defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
@@ -268,10 +268,10 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 # Finder: show all filename extensions
 # defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Finder: show status bar
+# Finder: show status bar 显示状态栏
 # defaults write com.apple.finder ShowStatusBar -bool true
 
-# Finder: show path bar
+# Finder: show path bar 显示地址栏
 defaults write com.apple.finder ShowPathbar -bool true
 
 # Display full POSIX path as Finder window title
