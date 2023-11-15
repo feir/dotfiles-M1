@@ -54,6 +54,12 @@ cask "glance-chamburr"
 cask "google-chrome"
 # Tool for multi-language users
 cask "input-source-pro"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Spreadsheet software
+cask "microsoft-excel"
+# Word processor
+cask "microsoft-word"
 # Open-source download manager
 cask "motrix"
 # Media player
@@ -84,14 +90,13 @@ cask "whatsapp"
 cask "xld"
 # YouTube Music Desktop App
 cask "youtube-music"
+mas "APTV", id: 1630403500
 mas "Byword", id: 420212497
 mas "Drafts", id: 1435957248
 mas "Exporter", id: 1099120373
 mas "Invoice", id: 1670679663
 mas "Keynote", id: 409183694
 mas "MarkDownload - Markdown Web Clipper", id: 1554029832
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
 mas "Rosetta Stone", id: 1476088902
 mas "Tampermonkey", id: 1482490089
