@@ -1,5 +1,6 @@
 tap "57uff3r/mac-apps"
 tap "homebrew/bundle"
+tap "lencx/chatgpt", "https://github.com/lencx/ChatGPT.git"
 tap "sijanc147/formulas"
 # Securely send things from one computer to another
 brew "croc"
@@ -40,6 +41,8 @@ cask "anki"
 cask "appcleaner"
 # Menu bar icon organizer
 cask "bartender"
+# Desktop wrapper for OpenAI ChatGPT
+cask "chatgpt"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # European dictionary
