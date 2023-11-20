@@ -43,6 +43,8 @@ cask "appcleaner"
 cask "bartender"
 # Desktop wrapper for OpenAI ChatGPT
 cask "chatgpt"
+# Collect, organize, edit and annotate documents
+cask "devonthink"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # European dictionary
@@ -57,6 +59,10 @@ cask "glance-chamburr"
 cask "google-chrome"
 # Tool for multi-language users
 cask "input-source-pro"
+# File archiver
+cask "keka"
+# Helper application for the Keka file archiver
+cask "kekaexternalhelper"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Spreadsheet software
