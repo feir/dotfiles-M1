@@ -22,6 +22,8 @@ brew "php"
 brew "powerlevel10k"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
 # Internet file retriever
 brew "wget"
 # Fork of youtube-dl with additional features and fixes
@@ -83,6 +85,8 @@ cask "pdf-expert"
 cask "popclip"
 # Control your tools with a few keystrokes
 cask "raycast"
+# File sync and share software
+cask "resilio-sync"
 # Video game digital distribution service
 cask "steam"
 # Text editor for code, markup and prose
@@ -91,14 +95,16 @@ cask "sublime-text"
 cask "telegram"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
+# Open-source code editor
+cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
 # Free messaging and calling application
 cask "wechat"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Lossless audio decoder
 cask "xld"
-# YouTube Music Desktop App
-cask "youtube-music"
 mas "APTV", id: 1630403500
 mas "Byword", id: 420212497
 mas "Drafts", id: 1435957248
@@ -106,9 +112,14 @@ mas "Exporter", id: 1099120373
 mas "Invoice", id: 1670679663
 mas "Keynote", id: 409183694
 mas "MarkDownload - Markdown Web Clipper", id: 1554029832
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
+mas "PopClip", id: 445189367
 mas "Rosetta Stone", id: 1476088902
+mas "Server Box", id: 1586449703
 mas "Tampermonkey", id: 1482490089
 mas "Things", id: 904280696
+mas "uBlacklist for Safari", id: 1547912640
 mas "VidHub", id: 1659622164
 mas "Xcode", id: 497799835
+vscode "yzhang.markdown-all-in-one"
