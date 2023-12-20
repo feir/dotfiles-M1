@@ -24,6 +24,8 @@ brew "powerlevel10k"
 brew "python@3.11"
 # Perl-powered file rename script with many helpful built-ins
 brew "rename"
+# Official tldr client written in Rust
+brew "tlrc"
 # Internet file retriever
 brew "wget"
 # Fork of youtube-dl with additional features and fixes
@@ -61,6 +63,8 @@ cask "glance-chamburr"
 cask "google-chrome"
 # Tool for multi-language users
 cask "input-source-pro"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # File archiver
 cask "keka"
 # Helper application for the Keka file archiver
@@ -114,6 +118,7 @@ mas "Keynote", id: 409183694
 mas "MarkDownload - Markdown Web Clipper", id: 1554029832
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
+mas "obsidian-highlighter", id: 1613923144
 mas "PopClip", id: 445189367
 mas "Rosetta Stone", id: 1476088902
 mas "Server Box", id: 1586449703
